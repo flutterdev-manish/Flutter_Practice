@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practice_flutter/screens/otp_screen.dart';
+import 'package:practice_flutter/screens/login_screen.dart';
 import 'package:practice_flutter/themes/darkTheme.dart';
 import 'package:practice_flutter/themes/lightTheme.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: lightTheme,
       darkTheme: darkTheme,
       // useMaterial3: true,
-      home: const OtpScreen(),
+      home: const LoginScreen(),
     );
   }
 }
